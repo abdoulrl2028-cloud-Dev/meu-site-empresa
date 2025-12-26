@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato conosco. Estamos prontos para ajudar.">
+    <title>Meu Site Empresa - Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header/Navegação -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo da Empresa" class="logo-img">
+                    <span class="logo-text">Meu Site Empresa</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+                    <li><a href="contato.html" class="nav-link active">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </navbar>
+    </header>
+
+    <!-- Banner da Página -->
+    <section class="page-banner">
+        <h1>Entre em Contato</h1>
+        <p>Estamos prontos para ouvir você e ajudar</p>
+    </section>
+
+    <!-- Conteúdo de Contato -->
+    <section class="section contato">
+        <div class="container">
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h2>Informações de Contato</h2>
+                    
+                    <div class="info-item">
+                        <h3>📍 Endereço</h3>
+                        <p>Rua Exemplo, 123<br>São Paulo, SP 01234-567<br>Brasil</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>📞 Telefone</h3>
+                        <p><a href="tel:+551133334444">(11) 3333-4444</a></p>
+                        <p><a href="tel:+551199999999">(11) 9999-9999</a> - WhatsApp</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:info@empresa.com">info@empresa.com</a></p>
+                        <p><a href="mailto:suporte@empresa.com">suporte@empresa.com</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>🕐 Horário de Funcionamento</h3>
+                        <p>Segunda a Sexta: 09:00 - 18:00<br>Sábado: 09:00 - 13:00<br>Domingo: Fechado</p>
+                    </div>
+
+                    <div class="redes-sociais">
+                        <h3>Redes Sociais</h3>
+                        <div class="sociais">
+                            <a href="#" class="social-link">Facebook</a>
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contato-form">
+                    <h2>Envie uma Mensagem</h2>
+                    <form id="contatoForm" class="form">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="assunto">Assunto *</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="servico">Serviço de Interesse</label>
+                            <select id="servico" name="servico">
+                                <option value="">Selecione um serviço</option>
+                                <option value="web">Desenvolvimento Web</option>
+                                <option value="mobile">Aplicativos Móveis</option>
+                                <option value="design">Design Gráfico</option>
+                                <option value="consultoria">Consultoria Digital</option>
+                                <option value="seo">SEO & Marketing</option>
+                                <option value="seguranca">Segurança & Backup</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="termos" name="termos" required>
+                            <label for="termos">Concordo com a política de privacidade</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                    <div id="mensagemResposta" class="mensagem-resposta"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa (simulado) -->
+    <section class="section mapa">
+        <div class="container">
+            <h2>Localização</h2>
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.196148158097!2d-46.65378872346899!3d-23.550519371656537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xb60b8434de80b3f!2sAv.%20Paulista%2C%20900%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1703620800000" 
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sobre Nós</h4>
+                    <p>Empresa focada em soluções inovadoras para o seu negócio crescer.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>Email: info@empresa.com</p>
+                    <p>Telefone: (11) 9999-9999</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Meu Site Empresa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

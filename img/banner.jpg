@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004499;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="3" fill="rgba(255,255,255,0.1)"/>
+    </pattern>
+  </defs>
+  
+  <!-- Fundo gradiente -->
+  <rect width="1920" height="600" fill="url(#bannerGrad)"/>
+  
+  <!-- Padrão de pontos -->
+  <rect width="1920" height="600" fill="url(#dots)"/>
+  
+  <!-- Círculos decorativos -->
+  <circle cx="150" cy="150" r="80" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="1800" cy="500" r="120" fill="rgba(255,255,255,0.05)"/>
+  
+  <!-- Texto de exemplo -->
+  <text x="960" y="250" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">
+    Bem-vindo
+  </text>
+  <text x="960" y="350" font-family="Arial, sans-serif" font-size="48" fill="rgba(255,255,255,0.9)" text-anchor="middle">
+    Soluções Inovadoras para seu Negócio
+  </text>
+  
+  <!-- Linhas decorativas -->
+  <line x1="400" y1="400" x2="1520" y2="400" stroke="white" stroke-width="3" opacity="0.3"/>
+</svg>
