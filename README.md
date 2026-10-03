@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abdoulrl2028-cloud-Dev/abdoulrl2028-cloud-Dev/main/assets/projects/empresa.jpg" alt="Site institucional" width="100%">
+</p>
+
 # Meu Site Empresa 🚀
 
 ![Versão](https://img.shields.io/badge/versão-1.0.0-blue) ![Status](https://img.shields.io/badge/status-ativo-brightgreen) ![License](https://img.shields.io/badge/license-MIT-green)
