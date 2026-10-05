@@ -48,7 +48,7 @@ function initFormValidation() {
 
         // Validar campos
         if (!validateForm()) {
-            showMessage('Por favor, preencha todos os campos obrigatórios', 'erro');
+            showMessage('Please fill in every required field', 'erro');
             return;
         }
 
@@ -66,7 +66,7 @@ function initFormValidation() {
         });
 
         // Mostrar mensagem de sucesso
-        showMessage('Mensagem enviada com sucesso! Entraremos em contato em breve.', 'sucesso');
+        showMessage('Message sent. We will get back to you soon.', 'sucesso');
         form.reset();
     });
 }
@@ -89,7 +89,7 @@ function validateForm() {
     }
 
     if (!emailRegex.test(email)) {
-        showMessage('Por favor, insira um email válido', 'erro');
+        showMessage('Please enter a valid email address', 'erro');
         return false;
     }
 
@@ -213,9 +213,9 @@ initPhoneFormatting();
  */
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
-        alert('Copiado para a área de transferência!');
+        alert('Copied to the clipboard.');
     }).catch(err => {
-        console.error('Erro ao copiar:', err);
+        console.error('Could not copy:', err);
     });
 }
 
